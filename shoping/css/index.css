@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tkc7no');
+    src:  url('../fonts/icomoon.eot?tkc7no#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tkc7no') format('truetype'),
+      url('../fonts/icomoon.woff?tkc7no') format('woff'),
+      url('../fonts/icomoon.svg?tkc7no#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.main {
+    width: 980px;
+    height: 455px;
+     margin: 10px 0 0 220px;
+}
+
+.focus {
+   position: relative;
+   float: left;
+    height: 455px;
+    width: 721px;
+   
+}
+.focus ul:nth-child(2n){
+ position: absolute;
+ bottom: 20px;
+ left: 50%;
+ margin-left: -20px;
+ height: 15px;
+ width: 40px;
+ background-color: rgba(255, 255, 255, .3);
+}
+.focus ul:nth-child(2n) li {
+   float: left;
+    height: 8px;
+   width: 8px;
+   margin: 2px;
+   background-color: pink;
+   border-radius: 50%;
+  
+}
+.focus ul:nth-child(2n) li:hover {
+    background-color: red;
+}
+
+ .newsflash {
+    float: right;
+    height: 455px;
+    width: 250px;
+  
+}
+.news {
+    height: 165px;
+    border: 1px gray solid;
+   
+}
+.news dt {
+    height: 33px;
+    line-height:  31px;
+    font-size: 18px;
+    padding:0 15px;
+    border-bottom: 1px solid gray;
+}
+
+.news dt a {
+    float: right;
+    font-size: 16px;
+}
+.news dt a::after {
+    content: '\e90f';
+    font-family: 'icomoon';
+}
+.news dd {
+    overflow: hidden;
+    white-space: nowrap;  
+    text-overflow: ellipsis;
+    /* 隐藏
+    1.必须要在同一行
+    2.ellipsis省略号的意思
+    
+    */
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+  padding: 5px 15px 0;
+}
+.news dd a:hover {
+    color: red;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border:  1px solid gray;
+    border-top: 0;
+}
+
+.lifeservice tr td {
+ text-align: center;
+ width: 67px;
+ height: 68px;
+ border-right: 1px solid gray;
+ border-bottom: 1px solid gray;
+
+}
+.lifeservice tr td:last-child {
+    border-right: 0;
+}
+.lifeservice tr td a i {
+    display: inline-block;
+    height: 28px;
+    width: 24px;
+    background-color: pink;
+}
+.lifeservice tr td a .c1 {
+    background: url(../images/icons.png)no-repeat -17px -15px;
+}
+.lifeservice tr td a .c2 {
+    background: url(../images/icons.png)no-repeat -80px -15px;
+}
+.lifeservice tr td a .c3 {
+    background: url(../images/icons.png)no-repeat -142px -15px;
+}
+.lifeservice tr td a .c4 {
+    background: url(../images/icons.png)no-repeat -206px -15px;
+}
+.lifeservice tr td a .c5 {
+    background: url(../images/icons.png)no-repeat -17px -88px;
+}
+.lifeservice tr td a .c6 {
+    background: url(../images/icons.png)no-repeat -78px -88px;
+}
+.lifeservice tr td a .c7 {
+    background: url(../images/icons.png)no-repeat -140px -88px;
+}
+.lifeservice tr td a .c8 {
+    background: url(../images/icons.png)no-repeat -207px -88px;
+}
+.lifeservice tr td a .c9 {
+    background: url(../images/icons.png)no-repeat -17px -158px;
+}
+.lifeservice tr td a .c10 {
+    background: url(../images/icons.png)no-repeat -80px -158px;
+}
+.lifeservice tr td a .c11 {
+    background: url(../images/icons.png)no-repeat -142px -160px;
+}
+.lifeservice tr td a .c12 {
+    background: url(../images/icons.png)no-repeat -207px -158px;
+}
+
+
+
+
+
+.lifeservice tr td  p {
+    font-size: 12px;
+   
+}
+
+.bargain {
+ margin-top: 5px;
+ border: 1px solid skyblue;
+}
+.recom {
+    height: 163px;
+    margin-top: 12px;
+}
+.recom .recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: gray;
+    line-height: 163px;
+    text-align: center;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    height: 163px;
+    width: 248px;
+}
+/* -n+n是前几个的意思 */
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 145px;
+    width: 1px;
+   background-color: #ddd;
+}
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+}
+.box_hd h4 a {
+    float: left;
+color: red;
+font-size: 14px;
+font-style: 400;
+}
+.box_hd .tab_list ul li {
+    /* position: relative; */
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.tab_list ul li:nth-child(2n) {
+    height: 20px;
+    width: 1px;
+    background-color: black;
+    margin: 5px 10px 0 0;
+}
+/* .box_hd .tab_list ul li::after {
+    position: absolute;
+   right: -10px;
+    top: 5px;
+    content: '';
+    height: 20px;
+    width: 1px;
+    background-color: black;
+} */
+.box_hd .tab_list ul li a:hover {
+    border-bottom: 5px solid red;
+}
+
+.box_bd {
+    height: 361px;
+    background-color: pink;
+}
+.floor .w {
+    margin-top: 30px;
+}
+/* 如果a包含又宽高度的盒子需要转换块级元素 */
+.box_bd .tab_list_item a {
+    display: block;
+float: left;
+}
+.col_1 {
+    height: 361px;
+    width: 210px;
+    background-color: #f9f9f9;
+    border: 1px solid gray;
+}
+.col_1  ul li {
+    float: left;
+    height: 34px;
+    width: 85px;
+    border-bottom: 1px solid gray;
+    margin-left: 12px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+   
+}
+/* .col_1  ul li:hover {
+    color: red;
+} */
+
+
+.col_2{
+ position: relative;
+    width: 329px;
+    height: 361px;
+   
+}
+.col_2 ul {
+position: absolute;
+left: 50%;
+margin-left: -20px;
+bottom: 20px;
+}
+.col_2 ul li {
+    background-color: gray;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.col_2 ul li:hover {
+    background-color: #ddd;
+}
+
+
+.col_3 {
+    width: 210px;
+    height: 361px;
+    border-right: 1px solid gray;
+  
+}
+.col_4 {
+    width: 210px;
+    height: 361px;
+    border-right: 1px solid gray;
+}
+.col_5 {
+    width: 219px;
+    height: 361px;
+}
+.ftool  {
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  margin-left: -671px;
+  width: 66px;
+ 
+
+}
+.ftool ul li {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0 2px;
+    border-bottom: 1px gray solid;
+    transition: all .3s;
+    cursor: pointer;
+
+
+}
+.ftool ul li:first-child {
+    background-color: #c81629;
+}
+.ftool ul li:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    
+}
+
+
+
+
+
+
+

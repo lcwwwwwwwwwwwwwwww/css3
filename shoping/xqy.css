@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tkc7no');
+    src:  url('../fonts/icomoon.eot?tkc7no#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tkc7no') format('truetype'),
+      url('../fonts/icomoon.woff?tkc7no') format('woff'),
+      url('../fonts/icomoon.svg?tkc7no#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.c_wrap {
+    margin-top: 20px;
+
+}
+.c_wrap {
+    height: 25px;
+}
+.c_wrap a {
+    margin-left: 10px;
+}
+a:hover {
+    color: red;
+}
+.p_wrap {
+    height: 590px;
+    width: 402px;
+    border: 2px solid transparent;
+}
+.i_wrap {
+    width: 718px;
+   
+}
+.p_img {
+    height:  398px;
+   
+}
+.p_img img {
+    height: 398px;
+    width: 400px;
+    border: 2px solid gray;
+}
+
+.p_list {
+  
+    height: 60px;
+   border: 1px solid gray;
+    margin-top: 60px;
+    line-height: 60px;
+   
+}
+.p_list ul {
+    height: 60px;
+    width: 400px;
+ 
+  
+}
+
+
+
+.p_list ul li {
+    float: left;
+    height: 56px;
+    width: 56px;
+    line-height: 50px;
+   border: 2px solid transparent;
+   margin: 0 4px ;
+   
+}
+.p_list ul li:first-child {
+    width: 33px;
+    height: 56px;
+    color: gray;
+    font-size: 60px;
+  
+}
+.p_list ul li:last-child {
+    width: 30px;
+    height: 56px;
+    color: gray;
+    font-size: 60px;
+  
+}
+.p_list ul li:last-child:hover,
+.p_list ul li:first-child:hover {
+border: 0;
+}
+
+.p_list ul li:hover {
+    border: 2px solid red;
+}
+.p_list ul li img {
+    width: 100%;
+    height: 100%;
+}
+.h {
+    margin-top: 20px;
+}
+.h span {
+    margin: 0 5px;
+}
+.h span:hover {
+    color: red;
+}
+.h span:nth-child(2)::before
+{
+    content: '\e900';
+    font-family: 'icomoon';
+}
+.h span:nth-child(3)::before
+{
+    content: '\e900';
+    font-family: 'icomoon';
+}
+.s_name {
+   
+    height: 30px;
+font-size: 16px ;
+font-weight: 700;
+
+}
+.s_name:hover {
+    color: red;
+  
+}
+.news {
+    height: 32px;
+    width: 400px;
+    color: red;
+    font-size: 12px
+}
+
+.su_pr,
+.su_po {
+    position: relative;
+    padding: 10px 0; 
+    background-color: pink;
+  
+}
+.summer dl {
+    overflow: hidden;
+   
+}
+.summer  dt,
+.summer dd {
+    float: left;
+}
+.summer  dt {
+    width: 65px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+.summer .price {
+    font-size: 28px;
+    color: red;
+}
+.remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.su_po {
+    padding-top: 0;
+}
+.su_po dd {
+    width: 450px;
+ 
+    line-height: 36px;
+}
+.su_po  em {
+    display: inline-block;
+    height: 22px;
+    width: 50px;
+    background-color: brown;
+    color: aliceblue;
+    line-height: 22px;
+}
+.su_sut dd {
+    line-height: 36px;
+}
+.su_ps a::after{
+    padding-left: 10px;
+    content: '\e90d';
+    font-family: 'icomoon';
+}
+.su_ps {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    
+}
+.su_ps a {
+    line-height: 36px;
+}
+.su_ps dd {
+    width: 450px;
+    margin-bottom: 10px;
+   
+}
+.ch_co dd {
+    margin-left: 10px;
+}
+.ch_co   {
+    margin-bottom: 5px;
+}
+.ch_co a {
+ display: inline-block;
+ width: 100px;
+ height: 41px;
+ background-color: gray;
+ line-height: 41px;
+ text-align: center;
+ transition: all .3s;
+ 
+}
+.ch_co a:hover {
+    border: 1px solid red;
+    background-color: white;
+}
+.ch_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+   border: 1px solid red;
+    line-height: 46px;
+    text-align: center;
+}
+.addcar {
+    display: inline-block;
+   color: aliceblue;
+    height: 46px;
+    width: 142px;
+    background-color: red;
+    text-align: center;
+    line-height: 46px;
+    font-style: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.ch_amount input {
+    float: left;
+    width: 33px;
+    height: 44px;
+    border: 1px solid gray;
+    text-align: center;
+    
+  
+
+}
+.add,
+.redu {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+}
+.add {
+    top: 0;
+}
+.redu {
+   cursor:not-allowed;
+    bottom: 0;
+}
+
+
+/* 增加上边盒子的高度以达到和下方盒子的外边距 */
+
+
+
+

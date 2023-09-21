@@ -1,0 +1,132 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 86px;
+    border-bottom: 2px solid red;
+}
+header a img {
+    padding-top: 13px;
+}
+.registerarea {
+    height: 550px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid gray;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    transition: all .2s;
+}
+.registerarea h3:hover {
+    border: 3px skyblue solid;
+    background-color: pink;
+}
+.login {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+.login>a {
+    color: red;
+}
+
+ .reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li input {
+    height: 37px;
+    width: 243px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: red;
+}
+ .error_icon,.sucess_icon{
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    background: url(../images/error.png) no-repeat;
+      margin-top: -2px;
+}
+.sucess {
+    color: green;
+}
+.sucess_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.safe {
+    padding-left: 138px;
+}
+.safe em {
+    padding:0 12px;
+    color: white;
+}
+.safe .r {
+    background-color: pink;
+}
+.safe .z {
+    background-color: red;
+}
+.safe .q {
+    background-color: green;
+}
+.reg_form ul li input[type=checkbox] {
+   
+    height: 15px;
+    width: 15px;
+}
+.agree {
+   padding-left: 95px;
+  
+}
+.agree a {
+    color: skyblue;
+}
+.reg_form ul li input[type=submit] {
+    width: 200px;
+    height: 34px;
+    background-color: red;
+   margin-left: 95px;
+   font-size: 18px;
+   color: white;
+   margin-top: 30px;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+
+   
+ }
+  
+ .mod_copyright .links {
+    margin-bottom: 15px;
+ }
+ .mod_copyright .links a {
+    margin: 0 3px;
+    font-size: 14px;
+ }
+ .mod_copyright .links a:hover {
+    color: red;
+ }
+ .copyright {
+    line-height: 20px;
+ }
+/* 每创建一个html都必须引入css */
+/* 注意注意：注册页不需要seo优化 */

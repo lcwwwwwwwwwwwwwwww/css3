@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评优狗</title>
+    <link rel="stylesheet" href="css\base.css">
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="shortcut icon" href="bitbug_favicon.ico" /> 
+    <link rel="stylesheet" href="css\index.css">
+
+</head>
+<body>
+   <section class="shortcut">
+    <div class="w">
+        <div class="fl">
+           <ul>
+            <li>品优购欢迎您！</li>
+       
+            <li>
+                <a href="#" class="style_gray">请登录</a>
+                &nbsp;
+                <a href="register.html" class="style_red">免费注册</a>
+            </li>
+           </ul>
+        </div>
+
+        <div class="fr">
+          <ul>
+            <li><a href="#">我的订单</a></li>
+            <li></li>
+            <li class="arrow-icon"><a href="#">我的品优购</a></li>
+            <li></li>
+            <li><a href="#">品优购会员</a></li>
+            <li></li>
+            <li><a href="#">企业采购</a></li>
+            <li></li>
+            <li class="arrow-icon"><a href="#">关注品优购</a></li>
+            <li></li>
+            <li class="arrow-icon"><a href="#">客户服务</a></li>
+            <li></li>
+            <li class="arrow-icon"><a href="#">网址导航</a></li>
+          </ul>
+        </div>
+    </div>
+   </section>
+
+<header class="head w">
+   <div class="logo">
+    <h1>
+      <a href="index.html">品优购</a>
+    </h1>
+   </div>
+ 
+  <div class="search">
+<input type="search" name="search" id="search" placeholder="我要干你">
+<button>搜索</button>
+<!-- 文本提示placeholder -->
+  </div>
+
+  <div class="hotwords">
+    <a href="#" class="style_red">优惠购首发</a>
+    <a href="#">亿元优惠</a>
+    <a href="#">9.9团购</a>
+    <a href="#">美满99减30</a>
+    <a href="#">办公用品</a>
+    <a href="#">电脑</a>
+    <a href="#">通信</a>
+  </div>
+
+  <div class="shopcut">
+   <a href="#">我的购物车</a>
+   <!-- count部分不要给宽度，因为买东西不可能只买一点 -->
+   <div class="count">
+    18
+   </div>
+  </div>
+
+
+  
+</header>
+<!-- 导航start -->
+<nav class="nav ">
+  <div class="w">
+    <!-- 左 -->
+    <div class="dropdown">
+       
+            <div class="dt">全部商品分类</div>
+
+            <div class="dd">
+              <ul>
+                <li><a href="#">家用电器</a></li>
+                <li><a href="list.html">手机、</a><a href="#">数码、</a><a href="#">通信</a></li>
+                <li><a href="#">电脑、</a><a href="#">办公</a></li>
+                <li><a href="#">家具、</a><a href="#">家装、</a><a href="#">厨具</a></li>
+                <li><a href="#">男装、</a><a href="#">套装、</a><a href="#">内衣</a></li>
+                <li><a href="#">护照产品、</a><a href="#">错误</a></li>
+              
+                <li><a href="#">男装、</a><a href="#">套装、</a><a href="#">内衣</li>
+                <li><a href="#">户外运动、</a><a href="#">钟表</a></li>
+                <li><a href="#">汽车、</a><a href="#">汽车用品</a></li>
+                <li><a href="#">母婴、</a><a href="#">玩具乐园</a></li>
+                <li><a href="#">书屋、</a><a href="#">酒量、</a> <a href="#">新鲜</a></li>
+                <li><a href="#">图书、</a><a href="#">音乐</a></li>
+                <li><a href="#">彩票、</a><a href="#">充值、</a><a href="#">出行</a></li>
+                <li><a href="#">理财、</a><a href="#">众筹、</a><a href="#">白条</a></li>
+                <li><a href="#">理财、</a><a href="#">众筹、</a><a href="#">白条</a></li>
+              </ul>
+
+            </div>
+          
+           
+    </div>
+<!-- 右 -->
+
+
+<div class="navitems">
+  <ul>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+    <li><a href="#">买衣服</a></li>
+  </ul>
+</div>
+  </div>
+</nav>
+   <!-- 导航结束 -->
+
+    <!-- 先给父盒子布局再给子盒子 -->
+    <!-- 模块化开发：将一个项目按照功能划分 -->
+    <!-- 一个功能一个模块,互不影响 -->
+    <!-- 优点:重复使用 更换方便等优点 -->
+    <!--公共样式->首页  列表页  详情页  里面包含版心宽度 清除浮动 页面文字颜色 -->
+  <!-- 给盒子高度后不用在清除浮动 -->
+  <!-- 因为是css3的盒子模型，量高度时需要测量边框 -->
+
+  <!-- 广告模块要放在upload -->
+  <!-- 焦点图结构不能直接插入图片，需要包含在ul>li里面，用ul来实现滚动 -->
+<!-- 首页模块 -->
+
+
+
+<div class="w">
+  <div class="main">
+    <!--  -->
+    <div class="focus">
+      <ul>
+        <li><img src="upload\focus1.png" alt=""></li>
+      </ul>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+<!--  -->
+
+<!-- 子盒子会继承父盒子的部分属性，比如宽度 -->
+<!-- 当字体行高过高时，会挤压下一行的文字 -->
+    <div class="newsflash">
+        <div class="news">
+          <dl>
+            <dt>评优购快报 <a href="#">更多</a></dt>
+            <dd><a href="#"><strong>[特惠]</strong>备战开学季,全民半价购数码小阿三大大</a></dd>
+            <dd><a href="#"><strong>[特惠]</strong>备战开学季,全民半价购数码</a></dd>
+            <dd><a href="#"><strong>[特惠]</strong>备战开学季,全民半价购数码撒旦发生发射点发</a></dd>
+            <dd><a href="#"><strong>[特惠]</strong>备战开学季,全民半价购数码</a></dd>
+            <dd><a href="#"><strong>[特惠]</strong>备战开学季,全民半价购数码手动阀手动阀</a></dd>
+           
+          
+          </dl>
+          
+        </div>
+        <div class="lifeservice">
+          <table>
+            <tr>
+              <td>
+                <a href="#" >
+                  <i class="c1"></i>
+                  <p>爸爸</p>
+                </a>
+              
+               </td>
+               <td>
+                <a href="#" >
+                  <i  class="c2"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i  class="c3"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i  class="c4"></i>
+                  <p>爸爸</p>
+                </a>
+              
+               </td>
+             
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <i class="c5"></i>
+                  <p>爸爸</p>
+                </a>
+              
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c6"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c7"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c8"></i>
+                  <p>爸爸</p>
+                </a>
+                
+               </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <i class="c9"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c10"></i>
+                  <p>爸爸</p>
+                </a>
+              
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c11"></i>
+                  <p>爸爸</p>
+                </a>
+               
+               </td>
+               <td>
+                <a href="#">
+                  <i class="c12"></i>
+                  <p>爸爸</p>
+                </a>
+                
+               </td>
+            </tr>
+          </table>
+<!-- li里面可以放a，同理a里面可以放其他盒子 -->
+        </div>
+        <div class="bargain">
+          <a href="#">
+            <img src="upload\bargain.png" alt="">
+          </a>
+        </div>
+
+      
+
+
+    </div>
+  </div>
+</div>
+
+<!-- 开始1 -->
+<div class="recom w">
+<div class="recom_hd">
+  <a href="#">
+    <img src="../shoping/images/recom.png" alt="">
+  </a>
+</div>
+
+<div class="recom_bd">
+  <ul>
+    <li><a href="#"> <img src="../shoping/upload/recom_03.jpg" alt=""></a></li>
+    <li><a href="#"> <img src="../shoping/upload/recom_03.jpg" alt=""></a></li>
+    <li><a href="#"> <img src="../shoping/upload/recom_03.jpg" alt=""></a></li>
+    <li><a href="#"> <img src="../shoping/upload/recom_03.jpg" alt=""></a></li>
+  </ul>
+</div>
+
+</div>
+ <!--  结束1-->
+  <!-- tab切换 -->
+ <!-- 开始 -->
+<div class="floor">
+  <div class="jiadian w">
+    <div class="box_hd ">
+      <h4><a href="#">家用带你</a></h4>
+   
+      <div class="tab_list">
+       <ul>
+         <li><a href="#">高端电器</a></li>
+         <li></li>
+         <li><a href="#">大傻逼</a></li>
+         <li></li>
+         <li><a href="#">空气/净水</a></li>
+      <li></li>
+         <li><a href="#">应用电器</a></li>
+        <li></li>
+         <li><a href="#">个体健康</a></li>
+        <li></li>
+         <li><a href="#">厨房电器</a></li>
+         <li></li>
+         <li><a href="#">甚或电器</a></li>
+        <li></li>
+         <li><a href="#">大家电</a></li>
+       <li></li>
+         <li ><a href="#" style="color: red;">热门</a></li>
+       </ul>
+      </div>
+
+      
+   </div>
+   <div class="box_bd ">
+    <div class="tab_content">
+      <div class="tab_list_item">
+        <a href="#" class="col_1">
+         <ul>
+          <li>姐姐帮你</li>
+          <li>4k都市</li>
+          <li>空前绝后去</li>
+          <li>ih带你副</li>
+          <li>沟通洗衣机</li>
+          <li>的时期的</li>
+         </ul>
+         <img src="../shoping/upload/floor-1-1.png" alt="">
+        </a>
+        <a href="#" class="col_2">
+           <img src="../shoping/upload/floor-1-b01.png" alt="">
+           <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ul>
+        </a>
+        <a href="#" class="col_3">3</a>
+        <a href="#" class="col_4">4</a>
+        <a href="#" class="col_5">5</a>
+      </div>
+    </div>
+   </div>
+   </div>
+
+
+
+   <div class="jiadian w">
+    <div class="box_hd ">
+      <h4><a href="#">家用带你</a></h4>
+   
+      <div class="tab_list">
+       <ul>
+         <li><a href="#">高端电器</a></li>
+         <li></li>
+         <li><a href="#">大傻逼</a></li>
+         <li></li>
+         <li><a href="#">空气/净水</a></li>
+      <li></li>
+         <li><a href="#">应用电器</a></li>
+        <li></li>
+         <li><a href="#">个体健康</a></li>
+        <li></li>
+         <li><a href="#">厨房电器</a></li>
+         <li></li>
+         <li><a href="#">甚或电器</a></li>
+        <li></li>
+         <li><a href="#">大家电</a></li>
+       <li></li>
+         <li ><a href="#" style="color: red;">热门</a></li>
+       </ul>
+      </div>
+
+      
+   </div>
+   <div class="box_bd ">
+    <div class="tab_content">
+      <div class="tab_list_item">
+        <a href="#" class="col_1">
+         <ul>
+          <li>姐姐帮你</li>
+          <li>4k都市</li>
+          <li>空前绝后去</li>
+          <li>ih带你副</li>
+          <li>沟通洗衣机</li>
+          <li>的时期的</li>
+         </ul>
+         <img src="../shoping/upload/floor-1-1.png" alt="">
+        </a>
+        <a href="#" class="col_2">
+           <img src="../shoping/upload/floor-1-b01.png" alt="">
+           <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ul>
+        </a>
+        <a href="#" class="col_3">3</a>
+        <a href="#" class="col_4">4</a>
+        <a href="#" class="col_5">5</a>
+      </div>
+    </div>
+   </div>
+   </div>
+   <div class="jiadian w">
+    <div class="box_hd ">
+      <h4><a href="#">家用带你</a></h4>
+   
+      <div class="tab_list">
+       <ul>
+         <li><a href="#">高端电器</a></li>
+         <li></li>
+         <li><a href="#">大傻逼</a></li>
+         <li></li>
+         <li><a href="#">空气/净水</a></li>
+      <li></li>
+         <li><a href="#">应用电器</a></li>
+        <li></li>
+         <li><a href="#">个体健康</a></li>
+        <li></li>
+         <li><a href="#">厨房电器</a></li>
+         <li></li>
+         <li><a href="#">甚或电器</a></li>
+        <li></li>
+         <li><a href="#">大家电</a></li>
+       <li></li>
+         <li ><a href="#" style="color: red;">热门</a></li>
+       </ul>
+      </div>
+
+      
+   </div>
+   <div class="box_bd ">
+    <div class="tab_content">
+      <div class="tab_list_item">
+        <a href="#" class="col_1">
+         <ul>
+          <li>姐姐帮你</li>
+          <li>4k都市</li>
+          <li>空前绝后去</li>
+          <li>ih带你副</li>
+          <li>沟通洗衣机</li>
+          <li>的时期的</li>
+         </ul>
+         <img src="../shoping/upload/floor-1-1.png" alt="">
+        </a>
+        <a href="#" class="col_2">
+           <img src="../shoping/upload/floor-1-b01.png" alt="">
+           <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ul>
+        </a>
+        <a href="#" class="col_3">3</a>
+        <a href="#" class="col_4">4</a>
+        <a href="#" class="col_5">5</a>
+      </div>
+    </div>
+   </div>
+   </div>
+   <div class="jiadian w">
+    <div class="box_hd ">
+      <h4><a href="#">家用带你</a></h4>
+   
+      <div class="tab_list">
+       <ul>
+         <li><a href="#">高端电器</a></li>
+         <li></li>
+         <li><a href="#">大傻逼</a></li>
+         <li></li>
+         <li><a href="#">空气/净水</a></li>
+      <li></li>
+         <li><a href="#">应用电器</a></li>
+        <li></li>
+         <li><a href="#">个体健康</a></li>
+        <li></li>
+         <li><a href="#">厨房电器</a></li>
+         <li></li>
+         <li><a href="#">甚或电器</a></li>
+        <li></li>
+         <li><a href="#">大家电</a></li>
+       <li></li>
+         <li ><a href="#" style="color: red;">热门</a></li>
+       </ul>
+      </div>
+
+      
+   </div>
+   <div class="box_bd ">
+    <div class="tab_content">
+      <div class="tab_list_item">
+        <a href="#" class="col_1">
+         <ul>
+          <li>姐姐帮你</li>
+          <li>4k都市</li>
+          <li>空前绝后去</li>
+          <li>ih带你副</li>
+          <li>沟通洗衣机</li>
+          <li>的时期的</li>
+         </ul>
+         <img src="../shoping/upload/floor-1-1.png" alt="">
+        </a>
+        <a href="#" class="col_2">
+           <img src="../shoping/upload/floor-1-b01.png" alt="">
+           <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ul>
+        </a>
+        <a href="#" class="col_3">3</a>
+        <a href="#" class="col_4">4</a>
+        <a href="#" class="col_5">5</a>
+      </div>
+    </div>
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+<div class="ftool">
+  <ul>
+    <li>爸爸打我</li>
+    <li>爸爸打我</li>
+    <li>爸爸打我</li>
+    <li>爸爸打我</li>
+    <li>爸爸打我</li>
+    <li>爸爸打我</li>
+  </ul>
+</div>
+    <footer class="footer">
+      <div class="w">
+        <div class="mod_service"> 
+         <ul>
+           <li class="a1">
+             <h5></h5>
+            <div class="service_txt">
+             <h4>正品保障</h4>
+             <p>正品保障，提供发票</p>
+            </div>
+           </li>
+
+           <li >
+             <h5></h5>
+            <div class="service_txt">
+             <h4>激素物流</h4>
+             <p>极速物流，激素送达</p>
+            </div>
+           </li>
+
+           <li >
+             <h5></h5>
+            <div class="service_txt">
+             <h4>无忧售后</h4>
+             <p>7天内物流有退货</p>
+            </div>
+           </li>
+           
+           <li >
+             <h5></h5>
+            <div class="service_txt">
+             <h4>特色服务</h4>
+             <p>私人定制</p>
+            </div>
+           </li>
+           <li >
+            <h5></h5>
+           <div class="service_txt">
+            <h4>帮助中心</h4>
+            <p>客服联系</p>
+           </div>
+          </li>
+
+          
+
+         
+          
+           
+         </ul>
+        </div>
+
+
+        <div class="mod_help">
+         <dl>
+           <dt>服务指南</dt>
+           <dd><a href="#"> 购物流程</a></dd>
+           <dd><a href="#">会员介绍</a></dd>
+           <dd><a href="#">生活服务/团购</a></dd>
+           <dd><a href="#">常见问题</a></dd>
+           <dd><a href="#">大家电</a></dd>
+           <dd><a href="#">联系客服</a></dd>
+          
+           
+         </dl>
+
+         <dl>
+           <dt>服务指南</dt>
+           <dd><a href="#"> 购物流程</a></dd>
+           <dd><a href="#">会员介绍</a></dd>
+           <dd><a href="#">生活服务/团购</a></dd>
+           <dd><a href="#">常见问题</a></dd>
+           <dd><a href="#">大家电</a></dd>
+           <dd><a href="#">联系客服</a></dd>
+          
+           
+         </dl>
+
+         <dl>
+           <dt>支付方式</dt>
+           <dd><a href="#"> 购物流程</a></dd>
+           <dd><a href="#">会员介绍</a></dd>
+           <dd><a href="#">生活服务/团购</a></dd>
+           <dd><a href="#">常见问题</a></dd>
+           <dd><a href="#">大家电</a></dd>
+           <dd><a href="#">联系客服</a></dd>
+          
+           
+         </dl>
+
+         <dl>
+           <dt>售后服务</dt>
+           <dd><a href="#"> 购物流程</a></dd>
+           <dd><a href="#">会员介绍</a></dd>
+           <dd><a href="#">生活服务/团购</a></dd>
+           <dd><a href="#">常见问题</a></dd>
+           <dd><a href="#">大家电</a></dd>
+           <dd><a href="#">联系客服</a></dd>
+          
+           
+         </dl>
+
+         <dl>
+           <dt>特色服务</dt>
+           <dd><a href="#"> 购物流程</a></dd>
+           <dd><a href="#">会员介绍</a></dd>
+           <dd><a href="#">生活服务/团购</a></dd>
+           <dd><a href="#">常见问题</a></dd>
+           <dd><a href="#">大家电</a></dd>
+           <dd><a href="#">联系客服</a></dd>
+          
+           
+         </dl>
+
+         <dl>
+           <dt>帮助中心</dt>
+          <dd>
+          <img src="images\6.jpg" alt="">
+         <p>  评优购客户端</p>
+          </dd>
+          
+          
+           
+         </dl>
+
+        </div>
+     <div class="mod_copyright">      
+       <div class="links">
+        <a href="#"> 关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">手机品优购</a> | <a href="#">友情链接</a> | <a href="#">销售联盟 </a>| <a href="#">品优购社区</a> | <a href="#">品优购公益</a> | <a href="#">English Site</a> | <a href="#">Contact U</a>
+
+
+          </div>
+
+            <div class="copyright">
+             地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn
+         <br>
+        京ICP备08001421号京公网安备110108007702
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+<!--  服务器是计算机-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

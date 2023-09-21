@@ -1,0 +1,72 @@
+.nav {
+    overflow: hidden;
+}
+/* 如果盒子不对称一定是上面的盒子影响了它，这时候藏溢出 */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left:1px solid red ;
+    padding: 3px 0 0 14px;
+}
+/* 文字大于行高，文字偏下，反之 */
+.list_sk ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding-left: 50px;
+}
+.list_sk,.list_com ul li a:hover {
+    color: red;
+}
+
+.list_com ul li a {
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.list_com ul li:last-child a::after {
+content: '\e90d';
+font-family: 'icomoon';
+}
+.sk_bd .clearfix {
+    clear: both;
+}
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    transition:all 0.5s ;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+/* li的本质是自带了一个1像素的边框 如果再加边框就会溢出*/
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: red 1px solid;
+}
+.sk_con .pp {
+    float: left;
+    height: 60px;
+  margin: 30px 0 30px 300px;
+}
+.sk_con .pp a {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  transition: all .5s;
+}
+.sk_con .pp a:hover {
+    background-color: skyblue;
+    color: pink;
+}

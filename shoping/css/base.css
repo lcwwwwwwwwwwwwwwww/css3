@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3f5f7;
+    height: 3000px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+input {
+    border: 0;
+    outline: none;
+}
+.clearfix {
+    display: block;
+    content: '';
+    clear: both;
+}
